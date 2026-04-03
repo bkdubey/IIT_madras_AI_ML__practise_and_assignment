@@ -1,0 +1,21 @@
+import pandas as pd 
+from pathlib import Path
+
+
+series = pd.Series([1, 2, 3, 4, 5])
+print(series)   
+
+# dataframe example
+df = pd.DataFrame({"EmpID": [1, 2, 3], "EmpName": ["Alice", "Bob", "Charlie"]
+                   , "CTC": [50000, 60000, 70000]
+                   })
+
+print(df)
+
+# dataframe with csv
+current_dir = Path(__file__).parent
+empData = pd.read_csv(current_dir / "employee.csv", index_col=False) #please create a csv file with name employee.csv and add some data in it to run this code
+print(empData.iloc[ :5 , :5]) # print first 5 rows and first 5 columns of the dataframe
+#print(empData.head())
+print(empData.info())
+#print(empData.describe)
