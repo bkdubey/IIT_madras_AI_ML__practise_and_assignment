@@ -4,6 +4,7 @@ This folder contains the complete assignment for the HR employee attrition proje
 
 ## Included files
 - `WA_Fn-UseC_-HR-Employee-Attrition.csv` (dataset)
+- `model.pkl` (trained SVM model pipeline saved with joblib)
 - `employee_attrition_analysis.ipynb` (Jupyter Notebook with full EDA + model pipeline)
 
 ## Project structure
@@ -13,17 +14,25 @@ This folder contains the complete assignment for the HR employee attrition proje
   2. Dataset loading and inspection
   3. Exploratory Data Analysis (visualization and statistics)
   4. Data cleaning and feature engineering
-  5. Model selection (Logistic Regression baseline)
-  6. Training and evaluation (accuracy + precision+recall+confusion matrix)
+  5. Model selection (multiple classifiers including SVM, Random Forest, and Gradient Boosting)
+  6. Training and evaluation (accuracy, precision, recall, F1 score, confusion matrix)
+  7. Saving the final trained model to `model.pkl`
 
 ## Run instructions
-1. Activate the Python environment:
-   - `cd C:\Users\dubey\IIT_madras_AI_ML__practise_and_assignment`
+1. From the repository root, activate the Python environment:
    - `venv\Scripts\activate`
-2. Install requirements if not done:
+2. Change to the mini-project folder:
+   - `cd capstone_graded_project/week7_mini_project`
+3. Install requirements if not done:
    - `pip install -r requirements.txt`
-3. Launch Jupyter:
-   - `jupyter notebook` and open `capstone_graded_project/week7_mini_project/employee_attrition_analysis.ipynb`
+4. Launch Jupyter:
+   - `jupyter notebook` and open `employee_attrition_analysis.ipynb`
+5. Run all notebook cells from top to bottom.
+
+## Model artifact
+- The notebook saves the final trained model pipeline to `model.pkl`.
+- This pipeline includes the scaler and the SVM classifier.
+- You can load it with `joblib.load('model.pkl')` and use `pipeline.predict(X)` on preprocessed feature arrays.
 
 ## Notes
 - The notebook is set up to read the CSV from the current assignment folder with the line:
