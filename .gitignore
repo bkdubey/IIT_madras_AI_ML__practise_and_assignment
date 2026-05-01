@@ -44,8 +44,7 @@ env/
 # Data
 data/raw/
 data/processed/
-*.csv
-*.xlsx
+
 
 # Models
 models/trained/
