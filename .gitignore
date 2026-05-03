@@ -64,3 +64,6 @@ logs/
 # Cache
 .cache/
 *.cache
+
+
+*.zip

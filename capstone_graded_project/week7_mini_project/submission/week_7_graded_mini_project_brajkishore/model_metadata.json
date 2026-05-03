@@ -1,0 +1,50 @@
+{
+  "model_name": "SVM (RBF)",
+  "f1_score": 0.5384615384615384,
+  "precision": 0.42168674698795183,
+  "recall": 0.7446808510638298,
+  "accuracy": 0.7959183673469388,
+  "training_date": "2026-05-01",
+  "features_used": [
+    "Age",
+    "BusinessTravel",
+    "DailyRate",
+    "Department",
+    "DistanceFromHome",
+    "Education",
+    "EducationField",
+    "EnvironmentSatisfaction",
+    "Gender",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobRole",
+    "JobSatisfaction",
+    "MaritalStatus",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "OverTime",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "target_classes": [
+    "No Attrition",
+    "Attrition"
+  ],
+  "preprocessing_steps": [
+    "StandardScaler",
+    "LabelEncoder for categorical features"
+  ],
+  "class_imbalance_handling": "class_weight=balanced",
+  "hyperparameter_tuned": true
+}
