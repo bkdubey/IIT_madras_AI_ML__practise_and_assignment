@@ -1,0 +1,195 @@
+run_id,conversation_id,chunk_size,overlap_pct,embedding_backend,prompt_variant,question_id,question_type,question,answer,citations,used_chunks,tokens,latency_seconds,relevance,groundedness,citation_correctness,conciseness,memory_continuity,refusal_correct
+run_01,run_01_triple_1,300,10,open_source_hash,P1,Q1,factual,What are the three core principles of responsible AI?,"The three core principles are fairness, transparency, and human accountability. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-3; 3-1,20,0.0003,1,1,1,1,1,1
+run_01,run_01_triple_1,300,10,open_source_hash,P1,Q2,follow_up,How does that connect to fairness in customer-facing AI systems?,"Using the earlier discussion, Fairness requires measuring disparate impact and reducing bias in training data and model decisions. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 2-5; 3-2,24,0.0002,1,1,1,1,1,1
+run_01,run_01_triple_1,300,10,open_source_hash,P1,Q3,factual,Why is privacy minimization important when building AI tools?,"Using the earlier discussion, Privacy minimization reduces exposure by collecting only the data needed and protecting it with clear controls and retention limits. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-1; 1-7,33,0.0001,1,1,1,1,1,1
+run_01,run_01_triple_2,300,10,open_source_hash,P1,Q4,factual,What is the role of transparency and explainability in AI governance?,"Transparency documents a model's purpose, assumptions, limitations, and decision rationale. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 2-5,18,0.0001,1,1,1,1,1,1
+run_01,run_01_triple_2,300,10,open_source_hash,P1,Q6,factual,Why should human oversight remain in the loop for high-impact decisions?,"Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [04 Human Oversight#1] [04 Human Oversight#1]",04 Human Oversight#1; 04 Human Oversight#1,4-4; 2-2; 3-3,25,0.0002,1,1,1,1,1,1
+run_01,run_01_triple_2,300,10,open_source_hash,P1,Q7,follow_up,How would that oversight change if the system is used in hiring?,"Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-4; 1-5; 4-4,29,0.0002,1,1,1,1,1,1
+run_01,run_01_triple_3,300,10,open_source_hash,P1,Q5,boundary,Does the knowledge pack mention the exact internal model training loss used in this project?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-4; 3-2; 4-4,10,0.0002,0,1,1,1,1,1
+run_01,run_01_triple_3,300,10,open_source_hash,P1,Q8,factual,What does model monitoring include after deployment?,"Using the earlier discussion, Monitoring and governance track performance, review drift, and maintain accountability after deployment. [05 Monitoring And Governance#1] [05 Monitoring And Governance#1]",05 Monitoring And Governance#1; 05 Monitoring And Governance#1,5-5; 5-1; 2-6,24,0.0001,1,1,1,1,1,1
+run_01,run_01_triple_3,300,10,open_source_hash,P1,Q9,boundary,Does the corpus provide a legal guarantee that every AI system must be 100% fair?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 3-1; 3-4,10,0.0002,0,1,1,1,1,1
+run_01,run_01_triple_4,300,10,open_source_hash,P1,Q10,factual,How is risk management connected to AI governance and deployment review?,"Monitoring and governance track performance, review drift, and maintain accountability after deployment. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 5-5; 6-3,18,0.0002,1,1,1,1,1,1
+run_02,run_02_triple_1,300,10,open_source_hash,P2,Q1,factual,What are the three core principles of responsible AI?,"Evidence:
+- # Privacy and Data Minimization
+
+Privacy is a core requirement for trustworthy AI. [02 Privacy And Data Minimization#1]
+- Systems should limit the collection, storage, and use of personal information to what is necessary for the stated purpose. [02 Privacy And Data Minimization#1]
+Answer:
+The three core principles are fairness, transparency, and human accountability. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-3; 3-1,66,0.0002,1,1,1,1,1,1
+run_02,run_02_triple_1,300,10,open_source_hash,P2,Q2,follow_up,How does that connect to fairness in customer-facing AI systems?,"Evidence:
+- # Risk Management
+
+Risk management in AI is the process of identifying harm before deployment and taking steps to reduce or mitigate it. [06 Risk Management#1]
+- Risks can come from biased inputs, false positives, unsafe recommendations, poor user experience, or inability to explain the system's behavior to stakeholders. [06 Risk Management#1]
+Answer:
+Using the earlier discussion, Fairness requires measuring disparate impact and reducing bias in training data and model decisions. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 2-5; 3-2,79,0.0002,1,1,1,1,1,1
+run_02,run_02_triple_1,300,10,open_source_hash,P2,Q3,factual,Why is privacy minimization important when building AI tools?,"Evidence:
+- # Privacy and Data Minimization
+
+Privacy is a core requirement for trustworthy AI. [02 Privacy And Data Minimization#1]
+- Data minimization reduces the risk of unnecessary exposure and improves user trust. [02 Privacy And Data Minimization#1]
+Answer:
+Using the earlier discussion, Privacy minimization reduces exposure by collecting only the data needed and protecting it with clear controls and retention limits. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-1; 1-7,72,0.0001,1,1,1,1,1,1
+run_02,run_02_triple_2,300,10,open_source_hash,P2,Q4,factual,What is the role of transparency and explainability in AI governance?,"Evidence:
+- # Transparency and Explainability
+
+Transparency is the practice of making the purpose, scope, and limitations of an AI system understandable to stakeholders. [03 Transparency And Explainability#1]
+- For users, this may mean explaining when AI is involved, what inputs it uses, and what decisions might be affected by its output. [03 Transparency And Explainability#1]
+Answer:
+Transparency documents a model's purpose, assumptions, limitations, and decision rationale. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 2-5,75,0.0001,1,1,1,1,1,1
+run_02,run_02_triple_2,300,10,open_source_hash,P2,Q6,factual,Why should human oversight remain in the loop for high-impact decisions?,"Evidence:
+- Human oversight is not limited to approvals at the end of a workflow. [04 Human Oversight#1]
+- Teams should provide error-reporting channels, periodic audits, and documented sign-off procedures for model updates or drift detection. [04 Human Oversight#1]
+Answer:
+Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [04 Human Oversight#1] [04 Human Oversight#1]",04 Human Oversight#1; 04 Human Oversight#1,4-4; 2-2; 3-3,65,0.0002,1,1,1,1,1,1
+run_02,run_02_triple_2,300,10,open_source_hash,P2,Q7,follow_up,How would that oversight change if the system is used in hiring?,"Evidence:
+- Privacy safeguards also include access control, logging, encryption, anonymization, and consent workflows. [02 Privacy And Data Minimization#1]
+- AI systems used in consumer products should be transparent about what data is used and how it is protected [02 Privacy And Data Minimization#1]
+Answer:
+Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-4; 1-5; 4-4,74,0.0001,1,1,1,1,1,1
+run_02,run_02_triple_3,300,10,open_source_hash,P2,Q5,boundary,Does the knowledge pack mention the exact internal model training loss used in this project?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-4; 3-2; 4-4,10,0.0001,0,1,1,1,1,1
+run_02,run_02_triple_3,300,10,open_source_hash,P2,Q8,factual,What does model monitoring include after deployment?,"Evidence:
+- Source: AI governance review framework, post-deployment monitoring notes. [05 Monitoring And Governance#1]
+- # Monitoring and Governance
+
+Responsible AI requires ongoing monitoring after deployment. [05 Monitoring And Governance#1]
+Answer:
+Using the earlier discussion, Monitoring and governance track performance, review drift, and maintain accountability after deployment. [05 Monitoring And Governance#1] [05 Monitoring And Governance#1]",05 Monitoring And Governance#1; 05 Monitoring And Governance#1,5-5; 5-1; 2-6,55,0.0001,1,1,1,1,1,1
+run_02,run_02_triple_3,300,10,open_source_hash,P2,Q9,boundary,Does the corpus provide a legal guarantee that every AI system must be 100% fair?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 3-1; 3-4,10,0.0001,0,1,1,1,1,1
+run_02,run_02_triple_4,300,10,open_source_hash,P2,Q10,factual,How is risk management connected to AI governance and deployment review?,"Evidence:
+- # Risk Management
+
+Risk management in AI is the process of identifying harm before deployment and taking steps to reduce or mitigate it. [06 Risk Management#1]
+- Risks can come from biased inputs, false positives, unsafe recommendations, poor user experience, or inability to explain the system's behavior to stakeholders. [06 Risk Management#1]
+Answer:
+Monitoring and governance track performance, review drift, and maintain accountability after deployment. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 5-5; 6-3,73,0.0001,1,1,1,1,1,1
+run_03,run_03_triple_1,600,15,open_source_hash,P1,Q1,factual,What are the three core principles of responsible AI?,"The three core principles are fairness, transparency, and human accountability. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 3-2,18,0.0002,1,1,1,1,1,1
+run_03,run_03_triple_1,600,15,open_source_hash,P1,Q2,follow_up,How does that connect to fairness in customer-facing AI systems?,"Using the earlier discussion, Fairness requires measuring disparate impact and reducing bias in training data and model decisions. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-2; 6-1; 1-1,28,0.0002,1,1,1,1,1,1
+run_03,run_03_triple_1,600,15,open_source_hash,P1,Q3,factual,Why is privacy minimization important when building AI tools?,"Using the earlier discussion, Privacy minimization reduces exposure by collecting only the data needed and protecting it with clear controls and retention limits. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-2; 1-3,31,0.0002,1,1,1,1,1,1
+run_03,run_03_triple_2,600,15,open_source_hash,P1,Q4,factual,What is the role of transparency and explainability in AI governance?,"Transparency documents a model's purpose, assumptions, limitations, and decision rationale. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-2; 2-1,18,0.0002,1,1,1,1,1,1
+run_03,run_03_triple_2,600,15,open_source_hash,P1,Q6,factual,Why should human oversight remain in the loop for high-impact decisions?,"Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 4-2; 4-1,27,0.0002,1,1,1,1,1,1
+run_03,run_03_triple_2,600,15,open_source_hash,P1,Q7,follow_up,How would that oversight change if the system is used in hiring?,"Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-2; 1-2; 4-2,29,0.0002,1,1,1,1,1,1
+run_03,run_03_triple_3,600,15,open_source_hash,P1,Q5,boundary,Does the knowledge pack mention the exact internal model training loss used in this project?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 4-2; 2-1,10,0.0002,0,1,1,1,1,1
+run_03,run_03_triple_3,600,15,open_source_hash,P1,Q8,factual,What does model monitoring include after deployment?,"Using the earlier discussion, Monitoring and governance track performance, review drift, and maintain accountability after deployment. [05 Monitoring And Governance#1] [05 Monitoring And Governance#1]",05 Monitoring And Governance#1; 05 Monitoring And Governance#1,5-1; 2-2; 5-3,24,0.0001,1,1,1,1,1,1
+run_03,run_03_triple_3,600,15,open_source_hash,P1,Q9,boundary,Does the corpus provide a legal guarantee that every AI system must be 100% fair?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 4-2; 3-1,10,0.0002,0,1,1,1,1,1
+run_03,run_03_triple_4,600,15,open_source_hash,P1,Q10,factual,How is risk management connected to AI governance and deployment review?,"Monitoring and governance track performance, review drift, and maintain accountability after deployment. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 6-2; 2-2,18,0.0002,1,1,1,1,1,1
+run_04,run_04_triple_1,600,15,open_source_hash,P2,Q1,factual,What are the three core principles of responsible AI?,"Evidence:
+- # Transparency and Explainability
+
+Transparency is the practice of making the purpose, scope, and limitations of an AI system understandable to stakeholders. [03 Transparency And Explainability#1]
+- For users, this may mean explaining when AI is involved, what inputs it uses, and what decisions might be affected by its output. [03 Transparency And Explainability#1]
+Answer:
+The three core principles are fairness, transparency, and human accountability. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 3-2,75,0.0002,1,1,1,1,1,1
+run_04,run_04_triple_1,600,15,open_source_hash,P2,Q2,follow_up,How does that connect to fairness in customer-facing AI systems?,"Evidence:
+- Privacy safeguards also include access control, logging, encryption, anonymization, and consent workflows. [02 Privacy And Data Minimization#1]
+- AI systems used in consumer products should be transparent about what data is used and how it is protected. [02 Privacy And Data Minimization#1]
+Answer:
+Using the earlier discussion, Fairness requires measuring disparate impact and reducing bias in training data and model decisions. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-2; 6-1; 1-1,73,0.0002,1,1,1,1,1,1
+run_04,run_04_triple_1,600,15,open_source_hash,P2,Q3,factual,Why is privacy minimization important when building AI tools?,"Evidence:
+- # Transparency and Explainability
+
+Transparency is the practice of making the purpose, scope, and limitations of an AI system understandable to stakeholders. [03 Transparency And Explainability#1]
+- For users, this may mean explaining when AI is involved, what inputs it uses, and what decisions might be affected by its output. [03 Transparency And Explainability#1]
+Answer:
+Using the earlier discussion, Privacy minimization reduces exposure by collecting only the data needed and protecting it with clear controls and retention limits. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-2; 1-3,88,0.0002,1,1,1,1,1,1
+run_04,run_04_triple_2,600,15,open_source_hash,P2,Q4,factual,What is the role of transparency and explainability in AI governance?,"Evidence:
+- # Transparency and Explainability
+
+Transparency is the practice of making the purpose, scope, and limitations of an AI system understandable to stakeholders. [03 Transparency And Explainability#1]
+- For users, this may mean explaining when AI is involved, what inputs it uses, and what decisions might be affected by its output. [03 Transparency And Explainability#1]
+Answer:
+Transparency documents a model's purpose, assumptions, limitations, and decision rationale. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-2; 2-1,75,0.0002,1,1,1,1,1,1
+run_04,run_04_triple_2,600,15,open_source_hash,P2,Q6,factual,Why should human oversight remain in the loop for high-impact decisions?,"Evidence:
+- Explainability is the ability to provide a human-understandable rationale for a model's decision, especially in cases with legal, medical, financial, or employment consequences. [03 Transparency And Explainability#1]
+- This can take the form of feature attribution, counterfactual explanations, or a summary of the main signals that influenced the recommendation. [03 Transparency And Explainability#1]
+Answer:
+Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 4-2; 4-1,83,0.0003,1,1,1,1,1,1
+run_04,run_04_triple_2,600,15,open_source_hash,P2,Q7,follow_up,How would that oversight change if the system is used in hiring?,"Evidence:
+- Privacy safeguards also include access control, logging, encryption, anonymization, and consent workflows. [02 Privacy And Data Minimization#1]
+- AI systems used in consumer products should be transparent about what data is used and how it is protected. [02 Privacy And Data Minimization#1]
+Answer:
+Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-2; 1-2; 4-2,74,0.0002,1,1,1,1,1,1
+run_04,run_04_triple_3,600,15,open_source_hash,P2,Q5,boundary,Does the knowledge pack mention the exact internal model training loss used in this project?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 4-2; 2-1,10,0.0003,0,1,1,1,1,1
+run_04,run_04_triple_3,600,15,open_source_hash,P2,Q8,factual,What does model monitoring include after deployment?,"Evidence:
+- # Monitoring and Governance
+
+Responsible AI requires ongoing monitoring after deployment. [05 Monitoring And Governance#1]
+- Teams should track model performance, data drift, and user feedback to detect changes in behavior that may create risk or reduce usefulness over time. [05 Monitoring And Governance#1]
+Answer:
+Using the earlier discussion, Monitoring and governance track performance, review drift, and maintain accountability after deployment. [05 Monitoring And Governance#1] [05 Monitoring And Governance#1]",05 Monitoring And Governance#1; 05 Monitoring And Governance#1,5-1; 2-2; 5-3,71,0.0003,1,1,1,1,1,1
+run_04,run_04_triple_3,600,15,open_source_hash,P2,Q9,boundary,Does the corpus provide a legal guarantee that every AI system must be 100% fair?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-2; 4-2; 3-1,10,0.0002,0,1,1,1,1,1
+run_04,run_04_triple_4,600,15,open_source_hash,P2,Q10,factual,How is risk management connected to AI governance and deployment review?,"Evidence:
+- # Risk Management
+
+Risk management in AI is the process of identifying harm before deployment and taking steps to reduce or mitigate it. [06 Risk Management#1]
+- Risks can come from biased inputs, false positives, unsafe recommendations, poor user experience, or inability to explain the system's behavior to stakeholders. [06 Risk Management#1]
+Answer:
+Monitoring and governance track performance, review drift, and maintain accountability after deployment. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 6-2; 2-2,73,0.0002,1,1,1,1,1,1
+run_05,run_05_triple_1,1000,20,open_source_hash,P1,Q1,factual,What are the three core principles of responsible AI?,"The three core principles are fairness, transparency, and human accountability. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 1-2,18,0.0003,1,1,1,1,1,1
+run_05,run_05_triple_1,1000,20,open_source_hash,P1,Q2,follow_up,How does that connect to fairness in customer-facing AI systems?,"Using the earlier discussion, Fairness requires measuring disparate impact and reducing bias in training data and model decisions. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 1-1; 3-1,24,0.0003,1,1,1,1,1,1
+run_05,run_05_triple_1,1000,20,open_source_hash,P1,Q3,factual,Why is privacy minimization important when building AI tools?,"Using the earlier discussion, Privacy minimization reduces exposure by collecting only the data needed and protecting it with clear controls and retention limits. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 1-2; 3-1,33,0.0003,1,1,1,1,1,1
+run_05,run_05_triple_2,1000,20,open_source_hash,P1,Q4,factual,What is the role of transparency and explainability in AI governance?,"Transparency documents a model's purpose, assumptions, limitations, and decision rationale. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-1; 5-1,20,0.0003,1,1,1,1,1,1
+run_05,run_05_triple_2,1000,20,open_source_hash,P1,Q6,factual,Why should human oversight remain in the loop for high-impact decisions?,"Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [04 Human Oversight#1] [04 Human Oversight#1]",04 Human Oversight#1; 04 Human Oversight#1,4-1; 3-1; 2-1,25,0.0004,1,1,1,1,1,1
+run_05,run_05_triple_2,1000,20,open_source_hash,P1,Q7,follow_up,How would that oversight change if the system is used in hiring?,"Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-1; 1-1,29,0.0003,1,1,1,1,1,1
+run_05,run_05_triple_3,1000,20,open_source_hash,P1,Q5,boundary,Does the knowledge pack mention the exact internal model training loss used in this project?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 4-1,10,0.0004,0,1,1,1,1,1
+run_05,run_05_triple_3,1000,20,open_source_hash,P1,Q8,factual,What does model monitoring include after deployment?,"Using the earlier discussion, Monitoring and governance track performance, review drift, and maintain accountability after deployment. [05 Monitoring And Governance#1] [05 Monitoring And Governance#1]",05 Monitoring And Governance#1; 05 Monitoring And Governance#1,5-1; 2-1; 3-1,24,0.0003,1,1,1,1,1,1
+run_05,run_05_triple_3,1000,20,open_source_hash,P1,Q9,boundary,Does the corpus provide a legal guarantee that every AI system must be 100% fair?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 4-1; 2-1,10,0.0004,0,1,1,1,1,1
+run_05,run_05_triple_4,1000,20,open_source_hash,P1,Q10,factual,How is risk management connected to AI governance and deployment review?,"Monitoring and governance track performance, review drift, and maintain accountability after deployment. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 5-1; 2-1,18,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_1,1000,20,open_source_hash,P2,Q1,factual,What are the three core principles of responsible AI?,"Evidence:
+- # Transparency and Explainability
+
+Transparency is the practice of making the purpose, scope, and limitations of an AI system understandable to stakeholders. [03 Transparency And Explainability#1]
+- For users, this may mean explaining when AI is involved, what inputs it uses, and what decisions might be affected by its output. [03 Transparency And Explainability#1]
+Answer:
+The three core principles are fairness, transparency, and human accountability. [03 Transparency And Explainability#1] [03 Transparency And Explainability#1]",03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 1-2,75,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_1,1000,20,open_source_hash,P2,Q2,follow_up,How does that connect to fairness in customer-facing AI systems?,"Evidence:
+- # Risk Management
+
+Risk management in AI is the process of identifying harm before deployment and taking steps to reduce or mitigate it. [06 Risk Management#1]
+- Risks can come from biased inputs, false positives, unsafe recommendations, poor user experience, or inability to explain the system's behavior to stakeholders. [06 Risk Management#1]
+Answer:
+Using the earlier discussion, Fairness requires measuring disparate impact and reducing bias in training data and model decisions. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 1-1; 3-1,79,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_1,1000,20,open_source_hash,P2,Q3,factual,Why is privacy minimization important when building AI tools?,"Evidence:
+- # Privacy and Data Minimization
+
+Privacy is a core requirement for trustworthy AI. [02 Privacy And Data Minimization#1]
+- Data minimization reduces the risk of unnecessary exposure and improves user trust. [02 Privacy And Data Minimization#1]
+Answer:
+Using the earlier discussion, Privacy minimization reduces exposure by collecting only the data needed and protecting it with clear controls and retention limits. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 1-2; 3-1,72,0.0002,1,1,1,1,1,1
+run_06,run_06_triple_2,1000,20,open_source_hash,P2,Q4,factual,What is the role of transparency and explainability in AI governance?,"Evidence:
+- # Privacy and Data Minimization
+
+Privacy is a core requirement for trustworthy AI. [02 Privacy And Data Minimization#1]
+- Systems should limit the collection, storage, and use of personal information to what is necessary for the stated purpose. [02 Privacy And Data Minimization#1]
+Answer:
+Transparency documents a model's purpose, assumptions, limitations, and decision rationale. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-1; 5-1,66,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_2,1000,20,open_source_hash,P2,Q6,factual,Why should human oversight remain in the loop for high-impact decisions?,"Evidence:
+- # Human Oversight
+
+Human oversight is important because AI can produce plausible but wrong outputs. [04 Human Oversight#1]
+- Even when a model performs well on average, there may be edge cases or unusual inputs that require a human reviewer to intervene. [04 Human Oversight#1]
+Answer:
+Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [04 Human Oversight#1] [04 Human Oversight#1]",04 Human Oversight#1; 04 Human Oversight#1,4-1; 3-1; 2-1,73,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_2,1000,20,open_source_hash,P2,Q7,follow_up,How would that oversight change if the system is used in hiring?,"Evidence:
+- # Privacy and Data Minimization
+
+Privacy is a core requirement for trustworthy AI. [02 Privacy And Data Minimization#1]
+- Systems should limit the collection, storage, and use of personal information to what is necessary for the stated purpose. [02 Privacy And Data Minimization#1]
+Answer:
+Using the earlier discussion, Human oversight keeps people responsible for reviewing high-impact decisions and escalating uncertain or risky outputs. [02 Privacy And Data Minimization#1] [02 Privacy And Data Minimization#1]",02 Privacy And Data Minimization#1; 02 Privacy And Data Minimization#1,2-1; 3-1; 1-1,75,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_3,1000,20,open_source_hash,P2,Q5,boundary,Does the knowledge pack mention the exact internal model training loss used in this project?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 2-1; 4-1,10,0.0003,0,1,1,1,1,1
+run_06,run_06_triple_3,1000,20,open_source_hash,P2,Q8,factual,What does model monitoring include after deployment?,"Evidence:
+- # Monitoring and Governance
+
+Responsible AI requires ongoing monitoring after deployment. [05 Monitoring And Governance#1]
+- Teams should track model performance, data drift, and user feedback to detect changes in behavior that may create risk or reduce usefulness over time. [05 Monitoring And Governance#1]
+Answer:
+Using the earlier discussion, Monitoring and governance track performance, review drift, and maintain accountability after deployment. [05 Monitoring And Governance#1] [05 Monitoring And Governance#1]",05 Monitoring And Governance#1; 05 Monitoring And Governance#1,5-1; 2-1; 3-1,71,0.0003,1,1,1,1,1,1
+run_06,run_06_triple_3,1000,20,open_source_hash,P2,Q9,boundary,Does the corpus provide a legal guarantee that every AI system must be 100% fair?,I do not know based on the current knowledge pack.,03 Transparency And Explainability#1; 03 Transparency And Explainability#1,3-1; 4-1; 2-1,10,0.0004,0,1,1,1,1,1
+run_06,run_06_triple_4,1000,20,open_source_hash,P2,Q10,factual,How is risk management connected to AI governance and deployment review?,"Evidence:
+- # Risk Management
+
+Risk management in AI is the process of identifying harm before deployment and taking steps to reduce or mitigate it. [06 Risk Management#1]
+- Risks can come from biased inputs, false positives, unsafe recommendations, poor user experience, or inability to explain the system's behavior to stakeholders. [06 Risk Management#1]
+Answer:
+Monitoring and governance track performance, review drift, and maintain accountability after deployment. [06 Risk Management#1] [06 Risk Management#1]",06 Risk Management#1; 06 Risk Management#1,6-1; 5-1; 2-1,73,0.0003,1,1,1,1,1,1
