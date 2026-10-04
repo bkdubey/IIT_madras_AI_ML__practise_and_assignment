@@ -1,0 +1,59 @@
+=== Text query 1 ===
+QUERY: Recommend running shoes under $100
+RESULT:
+{
+  "meta": {
+    "mode": "text_rag",
+    "retrieval_query": "Recommend running shoes under $100",
+    "retrieved_top_ids": ["S2", "S1", "S5", "S7", "S6"]
+  },
+  "output": {
+    "query_type": "recommendation",
+    "user_need": "Recommend running shoes under $100",
+    "recommended_products": [
+      {"product_id": "S1", "product_name": "Nike Air Zoom Pegasus", "price": 95.0},
+      {"product_id": "S6", "product_name": "Saucony Cohesion", "price": 75.0}
+    ]
+  }
+}
+
+=== Text query 2 ===
+QUERY: Which phone supports wireless charging under $600?
+RESULT:
+{
+  "meta": {
+    "mode": "text_rag",
+    "retrieval_query": "Which phone supports wireless charging under $600?",
+    "retrieved_top_ids": ["P6", "P4", "P3", "P7", "P5"]
+  },
+  "output": {
+    "query_type": "recommendation",
+    "user_need": "Which phone supports wireless charging under $600?",
+    "recommended_products": [
+      {"product_id": "P6", "product_name": "Nothing Phone (2)", "price": 399.0},
+      {"product_id": "P4", "product_name": "OnePlus 12R", "price": 499.0},
+      {"product_id": "P5", "product_name": "Moto G Power", "price": 199.0}
+    ]
+  }
+}
+
+=== Image query ===
+IMAGE: prob_definition/shoe.jpg
+RESULT:
+{
+  "mode": "multimodal_rag",
+  "retrieval_query": "running shoes daily trainer under 120 | sport shoe | daily trainer",
+  "retrieved_top_ids": ["S6", "S1", "S4", "S2", "S5"],
+  "image_extraction": {
+    "category_guess": "shoes",
+    "brand_guess": null,
+    "key_attributes": ["sport shoe", "daily trainer"],
+    "search_query": "running shoes daily trainer under 120"
+  }
+}
+
+=== Log sample ===
+STEP 1: image_extract_query -> {"category_guess": "shoes", "key_attributes": ["sport shoe", "daily trainer"], "search_query": "running shoes daily trainer under 120"}
+STEP 2: retrieve_products -> top_ids=["S6","S1","S4","S2","S5"]
+STEP 3: recommend -> raw_len=1292
+STEP 4: finish -> status=ok, n_recs=3
