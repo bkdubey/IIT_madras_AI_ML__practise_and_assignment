@@ -1,0 +1,10 @@
+{
+  "test_rows": 240,
+  "positive_rate": 0.57,
+  "accuracy": 0.5917,
+  "precision": 0.6789,
+  "recall": 0.5401,
+  "f1": 0.6016,
+  "roc_auc": 0.6231,
+  "baseline": "class-weighted logistic regression; 80/20 stratified holdout, random_state=42"
+}

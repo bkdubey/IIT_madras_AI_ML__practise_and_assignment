@@ -1,0 +1,14 @@
+{
+  "rows": 1200,
+  "columns": 41,
+  "missing_values": {
+    "rating_given": 516,
+    "customer_review_text": 516,
+    "image_path": 1200
+  },
+  "purchase_flag_balance": {
+    "0": 516,
+    "1": 684
+  },
+  "source_note": "Synthetic deterministic data generated for this submission; the referenced source CSV was not included."
+}

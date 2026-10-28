@@ -1,0 +1,218 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Everyday Mesh Runner",
+    "brand": "Stride",
+    "category": "Shoes",
+    "style_tags": "casual walking daily sports",
+    "base_price": 2799.0,
+    "text": "Everyday Mesh Runner. Everyday Mesh Runner by Stride. Mesh sneakers in black. Ideal for casual walking daily sports. Brand Stride. Category Shoes. Style and occasions: casual walking daily sports. Price ₹2799."
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Cloudfoam Walking Sneaker",
+    "brand": "Northstar",
+    "category": "Shoes",
+    "style_tags": "casual walking daily travel",
+    "base_price": 3499.0,
+    "text": "Cloudfoam Walking Sneaker. Cloudfoam Walking Sneaker by Northstar. Knit sneakers in white. Ideal for casual walking daily travel. Brand Northstar. Category Shoes. Style and occasions: casual walking daily travel. Price ₹3499."
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Urban Canvas Low-Top",
+    "brand": "Streetwise",
+    "category": "Shoes",
+    "style_tags": "casual everyday travel",
+    "base_price": 1899.0,
+    "text": "Urban Canvas Low-Top. Urban Canvas Low-Top by Streetwise. Canvas sneakers in black. Ideal for casual everyday travel. Brand Streetwise. Category Shoes. Style and occasions: casual everyday travel. Price ₹1899."
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Trail Grip Running Shoe",
+    "brand": "Peak",
+    "category": "Shoes",
+    "style_tags": "running sports outdoor",
+    "base_price": 3899.0,
+    "text": "Trail Grip Running Shoe. Trail Grip Running Shoe by Peak. Mesh sports shoes in blue. Ideal for running sports outdoor. Brand Peak. Category Shoes. Style and occasions: running sports outdoor. Price ₹3899."
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Classic Leather Formal Oxford",
+    "brand": "Regent",
+    "category": "Shoes",
+    "style_tags": "formal office business wedding",
+    "base_price": 4999.0,
+    "text": "Classic Leather Formal Oxford. Classic Leather Formal Oxford by Regent. Leather formal shoes in black. Ideal for formal office business wedding. Brand Regent. Category Shoes. Style and occasions: formal office business wedding. Price ₹4999."
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Office Comfort Derby",
+    "brand": "Regent",
+    "category": "Shoes",
+    "style_tags": "formal office business",
+    "base_price": 3799.0,
+    "text": "Office Comfort Derby. Office Comfort Derby by Regent. Leather formal shoes in black. Ideal for formal office business. Brand Regent. Category Shoes. Style and occasions: formal office business. Price ₹3799."
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Brown Suede Loafer",
+    "brand": "Marlow",
+    "category": "Shoes",
+    "style_tags": "formal office smart casual",
+    "base_price": 4299.0,
+    "text": "Brown Suede Loafer. Brown Suede Loafer by Marlow. Suede loafers in brown. Ideal for formal office smart casual. Brand Marlow. Category Shoes. Style and occasions: formal office smart casual. Price ₹4299."
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Lightweight Gym Trainer",
+    "brand": "Peak",
+    "category": "Shoes",
+    "style_tags": "gym training sports running",
+    "base_price": 2999.0,
+    "text": "Lightweight Gym Trainer. Lightweight Gym Trainer by Peak. Mesh sports shoes in grey. Ideal for gym training sports running. Brand Peak. Category Shoes. Style and occasions: gym training sports running. Price ₹2999."
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Minimal White Court Sneaker",
+    "brand": "Streetwise",
+    "category": "Shoes",
+    "style_tags": "casual everyday office travel",
+    "base_price": 3199.0,
+    "text": "Minimal White Court Sneaker. Minimal White Court Sneaker by Streetwise. Synthetic sneakers in white. Ideal for casual everyday office travel. Brand Streetwise. Category Shoes. Style and occasions: casual everyday office travel. Price ₹3199."
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Comfort Knit Slip-On",
+    "brand": "Northstar",
+    "category": "Shoes",
+    "style_tags": "casual walking travel daily",
+    "base_price": 2499.0,
+    "text": "Comfort Knit Slip-On. Comfort Knit Slip-On by Northstar. Knit slip-ons in navy. Ideal for casual walking travel daily. Brand Northstar. Category Shoes. Style and occasions: casual walking travel daily. Price ₹2499."
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Waterproof Hiker Boot",
+    "brand": "Peak",
+    "category": "Shoes",
+    "style_tags": "outdoor hiking travel winter",
+    "base_price": 5999.0,
+    "text": "Waterproof Hiker Boot. Waterproof Hiker Boot by Peak. Leather boots in brown. Ideal for outdoor hiking travel winter. Brand Peak. Category Shoes. Style and occasions: outdoor hiking travel winter. Price ₹5999."
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Everyday Sandal",
+    "brand": "Coast",
+    "category": "Shoes",
+    "style_tags": "casual summer daily travel",
+    "base_price": 1299.0,
+    "text": "Everyday Sandal. Everyday Sandal by Coast. Synthetic sandals in tan. Ideal for casual summer daily travel. Brand Coast. Category Shoes. Style and occasions: casual summer daily travel. Price ₹1299."
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Tailored Office Chino",
+    "brand": "Regent",
+    "category": "Apparel",
+    "style_tags": "formal office business",
+    "base_price": 2599.0,
+    "text": "Tailored Office Chino. Tailored Office Chino by Regent. Cotton trousers in navy. Ideal for formal office business. Brand Regent. Category Apparel. Style and occasions: formal office business. Price ₹2599."
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Classic Cotton Oxford Shirt",
+    "brand": "Regent",
+    "category": "Apparel",
+    "style_tags": "formal office business",
+    "base_price": 2299.0,
+    "text": "Classic Cotton Oxford Shirt. Classic Cotton Oxford Shirt by Regent. Cotton shirts in white. Ideal for formal office business. Brand Regent. Category Apparel. Style and occasions: formal office business. Price ₹2299."
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Weekend Relaxed Tee",
+    "brand": "Streetwise",
+    "category": "Apparel",
+    "style_tags": "casual everyday travel",
+    "base_price": 999.0,
+    "text": "Weekend Relaxed Tee. Weekend Relaxed Tee by Streetwise. Cotton t-shirts in black. Ideal for casual everyday travel. Brand Streetwise. Category Apparel. Style and occasions: casual everyday travel. Price ₹999."
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Lightweight Running Jacket",
+    "brand": "Peak",
+    "category": "Apparel",
+    "style_tags": "running sports outdoor",
+    "base_price": 3499.0,
+    "text": "Lightweight Running Jacket. Lightweight Running Jacket by Peak. Polyester jackets in black. Ideal for running sports outdoor. Brand Peak. Category Apparel. Style and occasions: running sports outdoor. Price ₹3499."
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Everyday Leather Belt",
+    "brand": "Marlow",
+    "category": "Accessories",
+    "style_tags": "formal office everyday",
+    "base_price": 1499.0,
+    "text": "Everyday Leather Belt. Everyday Leather Belt by Marlow. Leather belts in black. Ideal for formal office everyday. Brand Marlow. Category Accessories. Style and occasions: formal office everyday. Price ₹1499."
+  },
+  {
+    "product_id": "P018",
+    "product_title": "Compact Travel Backpack",
+    "brand": "Northstar",
+    "category": "Accessories",
+    "style_tags": "travel daily casual",
+    "base_price": 2899.0,
+    "text": "Compact Travel Backpack. Compact Travel Backpack by Northstar. Polyester bags in black. Ideal for travel daily casual. Brand Northstar. Category Accessories. Style and occasions: travel daily casual. Price ₹2899."
+  },
+  {
+    "product_id": "P019",
+    "product_title": "Classic Analog Watch",
+    "brand": "Regent",
+    "category": "Accessories",
+    "style_tags": "formal office business",
+    "base_price": 4599.0,
+    "text": "Classic Analog Watch. Classic Analog Watch by Regent. Steel watches in black. Ideal for formal office business. Brand Regent. Category Accessories. Style and occasions: formal office business. Price ₹4599."
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Performance Sports Socks",
+    "brand": "Peak",
+    "category": "Accessories",
+    "style_tags": "running gym sports daily",
+    "base_price": 599.0,
+    "text": "Performance Sports Socks. Performance Sports Socks by Peak. Cotton socks in white. Ideal for running gym sports daily. Brand Peak. Category Accessories. Style and occasions: running gym sports daily. Price ₹599."
+  },
+  {
+    "product_id": "P021",
+    "product_title": "Soft Knit Winter Scarf",
+    "brand": "Marlow",
+    "category": "Accessories",
+    "style_tags": "winter casual travel",
+    "base_price": 1799.0,
+    "text": "Soft Knit Winter Scarf. Soft Knit Winter Scarf by Marlow. Wool scarves in grey. Ideal for winter casual travel. Brand Marlow. Category Accessories. Style and occasions: winter casual travel. Price ₹1799."
+  },
+  {
+    "product_id": "P022",
+    "product_title": "Everyday Slip-Resistant Clog",
+    "brand": "Coast",
+    "category": "Shoes",
+    "style_tags": "casual walking daily",
+    "base_price": 1999.0,
+    "text": "Everyday Slip-Resistant Clog. Everyday Slip-Resistant Clog by Coast. Synthetic clogs in black. Ideal for casual walking daily. Brand Coast. Category Shoes. Style and occasions: casual walking daily. Price ₹1999."
+  },
+  {
+    "product_id": "P023",
+    "product_title": "Premium Suede Chelsea Boot",
+    "brand": "Marlow",
+    "category": "Shoes",
+    "style_tags": "formal office winter",
+    "base_price": 6999.0,
+    "text": "Premium Suede Chelsea Boot. Premium Suede Chelsea Boot by Marlow. Suede boots in black. Ideal for formal office winter. Brand Marlow. Category Shoes. Style and occasions: formal office winter. Price ₹6999."
+  },
+  {
+    "product_id": "P024",
+    "product_title": "Cushioned Daily Trainer",
+    "brand": "Stride",
+    "category": "Shoes",
+    "style_tags": "casual walking running daily",
+    "base_price": 3299.0,
+    "text": "Cushioned Daily Trainer. Cushioned Daily Trainer by Stride. Mesh sneakers in grey. Ideal for casual walking running daily. Brand Stride. Category Shoes. Style and occasions: casual walking running daily. Price ₹3299."
+  }
+]

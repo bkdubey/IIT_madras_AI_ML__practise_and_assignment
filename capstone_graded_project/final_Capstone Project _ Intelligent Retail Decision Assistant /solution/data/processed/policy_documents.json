@@ -1,0 +1,38 @@
+[
+  {
+    "policy_doc_id": "RET_01",
+    "topic": "returns",
+    "title": "Returns",
+    "policy_text": "Unused products may be returned within 7 calendar days of delivery. Items must retain original tags and packaging. Products marked final sale are not returnable."
+  },
+  {
+    "policy_doc_id": "RET_02",
+    "topic": "discounted returns",
+    "title": "Discounted item returns",
+    "policy_text": "Discounted products can be returned within 7 calendar days of delivery if unused and in original packaging with tags attached. After 7 days they are not eligible for return."
+  },
+  {
+    "policy_doc_id": "RET_03",
+    "topic": "refunds",
+    "title": "Refunds",
+    "policy_text": "Approved refunds are issued to the original payment method within 5 to 7 business days after the returned item passes inspection."
+  },
+  {
+    "policy_doc_id": "RET_04",
+    "topic": "shipping",
+    "title": "Shipping",
+    "policy_text": "Standard delivery takes 3 to 5 business days. Orders over ₹2,500 qualify for free standard shipping; other orders have a ₹99 standard shipping fee."
+  },
+  {
+    "policy_doc_id": "RET_05",
+    "topic": "exchange",
+    "title": "Exchanges",
+    "policy_text": "Size exchanges may be requested within 7 calendar days of delivery for unused items with tags attached. Exchanges are subject to stock availability."
+  },
+  {
+    "policy_doc_id": "RET_06",
+    "topic": "warranty",
+    "title": "Warranty",
+    "policy_text": "Manufacturing defects are covered for 90 days from delivery. Normal wear, accidental damage, and improper care are not covered."
+  }
+]

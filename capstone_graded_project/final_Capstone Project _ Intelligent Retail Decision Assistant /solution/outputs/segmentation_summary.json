@@ -1,0 +1,68 @@
+{
+  "clusters": 4,
+  "silhouette_score": 0.132,
+  "unit_of_analysis": "customer profiles aggregated from their interaction rows",
+  "features": [
+    "days_since_last_purchase",
+    "avg_order_value",
+    "total_orders",
+    "final_price",
+    "discount_percent",
+    "time_on_page",
+    "wishlist_flag"
+  ],
+  "distinguishing_feature": "avg_order_value",
+  "segments": {
+    "0": "lower historical order value (cluster 0)",
+    "1": "lower historical order value (cluster 1)",
+    "2": "lower historical order value (cluster 2)",
+    "3": "higher historical order value (cluster 3)"
+  },
+  "segment_details": {
+    "0": {
+      "customers": 40.0,
+      "mean_interactions": 6.08,
+      "mean_final_price": 2604.19,
+      "mean_discount_percent": 11.38,
+      "mean_avg_order_value": 1762.11,
+      "mean_days_since_last_purchase": 143.98,
+      "mean_total_orders": 7.05,
+      "mean_time_on_page": 73.77,
+      "wishlist_rate": 0.32
+    },
+    "1": {
+      "customers": 59.0,
+      "mean_interactions": 5.9,
+      "mean_final_price": 3232.84,
+      "mean_discount_percent": 11.58,
+      "mean_avg_order_value": 2226.34,
+      "mean_days_since_last_purchase": 68.8,
+      "mean_total_orders": 5.1,
+      "mean_time_on_page": 76.76,
+      "wishlist_rate": 0.17
+    },
+    "2": {
+      "customers": 65.0,
+      "mean_interactions": 6.15,
+      "mean_final_price": 2274.75,
+      "mean_discount_percent": 14.56,
+      "mean_avg_order_value": 1827.3,
+      "mean_days_since_last_purchase": 49.4,
+      "mean_total_orders": 6.97,
+      "mean_time_on_page": 62.89,
+      "wishlist_rate": 0.13
+    },
+    "3": {
+      "customers": 36.0,
+      "mean_interactions": 5.81,
+      "mean_final_price": 2503.09,
+      "mean_discount_percent": 14.97,
+      "mean_avg_order_value": 3776.19,
+      "mean_days_since_last_purchase": 117.89,
+      "mean_total_orders": 4.89,
+      "mean_time_on_page": 71.09,
+      "wishlist_rate": 0.19
+    }
+  },
+  "caveat": "Clusters describe synthetic customer profiles, not verified customer identities or causal behavior."
+}
